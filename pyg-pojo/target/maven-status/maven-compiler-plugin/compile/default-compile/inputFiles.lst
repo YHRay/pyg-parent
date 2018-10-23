@@ -7,6 +7,7 @@
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbProvinces.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbUserExample.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbSpecificationExample.java
+/Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/entity/Result.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbItem.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbOrderItemExample.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbItemCat.java
@@ -24,6 +25,7 @@
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbPayLog.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbSellerExample.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbProvincesExample.java
+/Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/entity/PageResult.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbTypeTemplateExample.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbItemExample.java
 /Users/ray/eclipse-workspace/pyg-parent/pyg-pojo/src/main/java/com/pyg/pojo/TbSpecificationOptionExample.java
