@@ -1,1 +1,9 @@
-/Users/ray/eclipse-workspace/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/BrandService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/SellerService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/ItemService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/ItemCatService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/GoodsService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/SpecificationService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/BrandService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/TypeTemplateService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/SpecificationOptionService.java
+/Users/ray/git/pyg-parent/pyg-sellergoods-interface/src/main/java/com/pyg/sellergoods/service/GoodsDescService.java

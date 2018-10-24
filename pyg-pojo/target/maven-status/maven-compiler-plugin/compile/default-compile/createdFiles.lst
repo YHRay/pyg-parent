@@ -97,4 +97,5 @@ com/pyg/pojo/TbContent.class
 com/pyg/pojo/TbFreightTemplateExample$Criterion.class
 com/pyg/pojo/TbGoodsExample.class
 com/pyg/pojo/TbAreasExample$Criteria.class
+com/pyg/pojogroup/Specification.class
 com/pyg/pojo/TbAddressExample.class
