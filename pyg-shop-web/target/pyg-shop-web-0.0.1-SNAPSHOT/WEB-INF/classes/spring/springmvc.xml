@@ -24,7 +24,7 @@
 	</mvc:annotation-driven>
 
 	<!-- 引用dubbo 服务 -->
-	<dubbo:application name="pinyougou-shop-web" />
+	<dubbo:application name="pyg-shop-web" />
 	<dubbo:registry address="zookeeper://192.168.1.77:2181"/>
 	<dubbo:annotation package="com.pyg.shop.controller" />  	
 

@@ -13,6 +13,7 @@ com/pyg/pojo/TbOrderExample$Criteria.class
 com/pyg/pojo/TbSeller.class
 com/pyg/pojo/TbAddressExample$Criterion.class
 com/pyg/pojo/TbContentCategoryExample$Criteria.class
+com/pyg/pojogroup/Goods.class
 com/pyg/pojo/TbContentExample.class
 com/pyg/pojo/TbAreasExample$GeneratedCriteria.class
 com/pyg/pojo/TbGoodsDescExample$Criteria.class
