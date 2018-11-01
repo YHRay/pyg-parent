@@ -1,8 +1,5 @@
-com/pyg/sellergoods/service/ItemService.class
 com/pyg/sellergoods/service/ItemCatService.class
-com/pyg/sellergoods/service/GoodsDescService.class
 com/pyg/sellergoods/service/SpecificationService.class
-com/pyg/sellergoods/service/SpecificationOptionService.class
 com/pyg/sellergoods/service/BrandService.class
 com/pyg/sellergoods/service/TypeTemplateService.class
 com/pyg/sellergoods/service/SellerService.class

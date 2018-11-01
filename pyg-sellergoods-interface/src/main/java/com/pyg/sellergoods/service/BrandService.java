@@ -1,54 +1,68 @@
 package com.pyg.sellergoods.service;
-
 import java.util.List;
 import java.util.Map;
 
 import com.pyg.pojo.TbBrand;
 
 import entity.PageResult;
-
-/*
- * 品牌服务层的接口
+/**
+ * 服务层接口
+ * @author Administrator
+ *
  */
 public interface BrandService {
-	/*
+
+	/**
 	 * 返回全部列表
+	 * @return
 	 */
 	public List<TbBrand> findAll();
+	
+	
 	/**
-	 * 品牌分页
-	 * @param pageNum 总记录数
-	 * @param pageSize 当前页数据
+	 * 返回分页列表
 	 * @return
 	 */
-	public PageResult findPage(int pageNum,int pageSize) ;
+	public PageResult findPage(int pageNum,int pageSize);
 	
-	/*
-	 * 增加品牌
+	
+	/**
+	 * 增加
+	*/
+	public void add(TbBrand brand);
+	
+	
+	/**
+	 * 修改
 	 */
-	public void add(TbBrand tbBrand);
-	/*
-	 * 修改品牌
-	 */
-	public void update(TbBrand tbBrand);
-	/*
-	 * 通过id查找
+	public void update(TbBrand brand);
+	
+
+	/**
+	 * 根据ID获取实体
+	 * @param id
+	 * @return
 	 */
 	public TbBrand findOne(Long id);
-	/*
-	 * 批量删除品牌
-	 */
-	public void delete(Long[] ids);
+	
+	
 	/**
-	 * 搜索查询
-	 * @param tbBrand
-	 * @param pageNum 当前页
-	 * @param pageSize 每页数量
+	 * 批量删除
+	 * @param ids
+	 */
+	public void delete(Long [] ids);
+
+	/**
+	 * 分页
+	 * @param pageNum 当前页 码
+	 * @param pageSize 每页记录数
 	 * @return
 	 */
-	public PageResult findPage(TbBrand tbBrand,int pageNum,int pageSize);
-	/*
-	 * 品牌下拉框数据
+	public PageResult findPage(TbBrand brand, int pageNum,int pageSize);
+	
+	/**
+	 * 返回下拉列表数据
+	 * @return
 	 */
 	public List<Map> selectOptionList();
 }

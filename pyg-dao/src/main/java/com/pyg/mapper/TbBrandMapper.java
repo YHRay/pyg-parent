@@ -1,11 +1,12 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbBrand;
-import com.pyg.pojo.TbBrandExample;
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbBrand;
+import com.pyg.pojo.TbBrandExample;
 
 public interface TbBrandMapper {
     int countByExample(TbBrandExample example);
@@ -31,4 +32,5 @@ public interface TbBrandMapper {
     int updateByPrimaryKey(TbBrand record);
     
     List<Map> selectOptionList();
+
 }

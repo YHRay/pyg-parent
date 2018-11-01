@@ -91,9 +91,11 @@ com/pyg/pojo/TbSellerExample$GeneratedCriteria.class
 com/pyg/pojo/TbGoodsExample$Criteria.class
 com/pyg/pojo/TbBrandExample$Criteria.class
 com/pyg/pojo/TbItemExample$Criteria.class
+entity/Result.class
 com/pyg/pojo/TbCitiesExample.class
 com/pyg/pojo/TbUser.class
 com/pyg/pojo/TbContent.class
+entity/PageResult.class
 com/pyg/pojo/TbFreightTemplateExample$Criterion.class
 com/pyg/pojo/TbGoodsExample.class
 com/pyg/pojo/TbAreasExample$Criteria.class

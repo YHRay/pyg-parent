@@ -2,9 +2,6 @@ com/pyg/manager/controller/GoodsController.class
 com/pyg/manager/controller/LoginController.class
 com/pyg/manager/controller/SellerController.class
 com/pyg/manager/controller/ItemCatController.class
-com/pyg/manager/controller/ItemController.class
+com/pyg/manager/controller/BrandController.class
 com/pyg/manager/controller/SpecificationController.class
 com/pyg/manager/controller/TypeTemplateController.class
-com/pyg/manager/controller/GoodsDescController.class
-com/pyg/manager/controller/SpecificationOptionController.class
-com/pyg/manager/controller/BrandController.class

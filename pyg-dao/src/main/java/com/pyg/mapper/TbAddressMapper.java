@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbAddress;
-import com.pyg.pojo.TbAddressExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbAddress;
+import com.pyg.pojo.TbAddressExample;
 
 public interface TbAddressMapper {
     int countByExample(TbAddressExample example);

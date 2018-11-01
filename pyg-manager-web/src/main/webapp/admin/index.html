@@ -5,26 +5,25 @@
     <!-- 页面meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>运营商后台管理系统</title>
+    <title>后台管理系统</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
-  
-
+    <!-- 页面meta /-->
     <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
     <link rel="stylesheet" href="../plugins/adminLTE/css/skins/_all-skins.min.css">
     <link rel="stylesheet" href="../css/style.css">
     
     <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-    <!-- <script src="../plugins/jQueryUI/jquery-ui.min.js"></script> -->
+    <script src="../plugins/jQueryUI/jquery-ui.min.js"></script>
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
   
     <script src="../plugins/adminLTE/js/app.min.js"></script>
-    <script type="text/javascript" src="../plugins/angularjs/angular.min.js"></script>
-	<script type="text/javascript" src="../js/base.js"></script>
-	<script type="text/javascript" src="../js/service/loginService.js"></script> 
-	<script type="text/javascript" src="../js/controller/indexController.js"></script>
-    <script type="text/javascript">   
+    
+
+    
+    <script type="text/javascript">
+   
 		 function SetIFrameHeight(){
 		  	  var iframeid=document.getElementById("iframe"); //iframe id
 		  	  if (document.getElementById){
@@ -33,11 +32,10 @@
 		 }
     
 	</script>    
- 
+
 </head>
 
-<body class="hold-transition skin-green sidebar-mini" ng-app="pinyougou" 
-ng-controller="indexController" ng-init="showLoginName()">
+<body class="hold-transition skin-blue sidebar-mini">
 
     <div class="wrapper">
 
@@ -48,7 +46,7 @@ ng-controller="indexController" ng-init="showLoginName()">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini"><b>品优购</b></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>品优购-运营商后台</b></span>
+                <span class="logo-lg"><b>品优购</b>商家后台</span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">
@@ -260,7 +258,7 @@ ng-controller="indexController" ng-init="showLoginName()">
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="../img/user2-160x160.jpg" class="user-image" alt="User Image">
-                                <span class="hidden-xs">{{loginName}}</span>
+                                <span class="hidden-xs">chendahai</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- User image -->
@@ -268,7 +266,7 @@ ng-controller="indexController" ng-init="showLoginName()">
                                     <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                                     <p>
-                                       {{loginName}}
+                                       chendahai 
                                         <small>最后登录 11:20AM</small>
                                     </p>
                                 </li>
@@ -279,7 +277,7 @@ ng-controller="indexController" ng-init="showLoginName()">
                                         <a href="#" class="btn btn-default btn-flat">修改密码</a>
                                     </div>
                                     <div class="pull-right">
-                                        <a href="../logout" class="btn btn-default btn-flat">注销</a>
+                                        <a href="#" class="btn btn-default btn-flat">注销</a>
                                     </div>
                                 </li>
                             </ul>
@@ -301,15 +299,10 @@ ng-controller="indexController" ng-init="showLoginName()">
                         <img src="../img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p> {{loginName}}</p>
+                        <p> chendahai</p>
                         <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
                     </div>
                 </div>
-              
-                <!-- /.search form -->
-
-
-                <!-- sidebar menu: : style can be found in sidebar.less -->
                 <ul class="sidebar-menu"  >
                     <li class="header">菜单</li>
                     <li id="admin-index"><a href="index.html"><i class="fa fa-dashboard"></i> <span>首页</span></a></li>
@@ -318,7 +311,7 @@ ng-controller="indexController" ng-init="showLoginName()">
 				    <li class="treeview">
 				        <a href="#">
 				            <i class="fa fa-folder"></i> 
-				            <span>商家管理</span>
+				            <span>基本管理</span>
 				            <span class="pull-right-container">
 				       			<i class="fa fa-angle-left pull-right"></i>
 				   		 	</span>
@@ -326,13 +319,13 @@ ng-controller="indexController" ng-init="showLoginName()">
 				        <ul class="treeview-menu">
 				
 				            <li id="admin-login">
-				                <a href="seller_1.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>商家审核
+				                <a href="seller.html" target="iframe">
+				                    <i class="fa fa-circle-o"></i> 修改资料
 				                </a>
 				            </li>
 							<li id="admin-login">
-				                <a href="seller.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>商家管理
+				                <a href="password.html" target="iframe">
+				                    <i class="fa fa-circle-o"></i> 修改密码
 				                </a>
 				            </li>
 				        </ul>                        
@@ -348,55 +341,18 @@ ng-controller="indexController" ng-init="showLoginName()">
 				        <ul class="treeview-menu">
 				
 				            <li id="admin-login">
-				                <a href="brand.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>品牌管理
-				                </a>
-				            </li>
-							<li id="admin-login">
-				                <a href="specification.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>规格管理
-				                </a>
-				            </li>							
-							<li id="admin-login">
-				                <a href="type_template.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>模板管理
-				                </a>
-				            </li>
-							<li id="admin-login">
-				                <a href="item_cat.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>分类管理
+				                <a href="goods_edit.html" target="iframe">
+				                    <i class="fa fa-circle-o"></i> 新增商品
 				                </a>
 				            </li>
 							<li id="admin-login">
 				                <a href="goods.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>商品审核
+				                    <i class="fa fa-circle-o"></i> 商品管理
 				                </a>
 				            </li>
 				        </ul>                        
 				    </li>
 					
-					<li class="treeview">
-				        <a href="#">
-				            <i class="fa fa-folder"></i> 
-				            <span>广告管理</span>
-				            <span class="pull-right-container">
-				       			<i class="fa fa-angle-left pull-right"></i>
-				   		 	</span>
-				        </a>
-				        <ul class="treeview-menu">
-				
-				            <li id="admin-login">
-				                <a href="content_category.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>广告类型管理
-				                </a>
-				            </li>
-							<li id="admin-login">
-				                <a href="content.html" target="iframe">
-				                    <i class="fa fa-circle-o"></i>广告管理
-				                </a>
-				            </li>
-				        </ul>                        
-				    </li>
 				    <!-- 菜单 /-->
 
                 </ul>
@@ -424,6 +380,8 @@ ng-controller="indexController" ng-init="showLoginName()">
 
     </div>
 
+
+   
 </body>
 
 </html>
