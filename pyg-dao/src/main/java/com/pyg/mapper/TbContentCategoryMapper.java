@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbContentCategory;
-import com.pyg.pojo.TbContentCategoryExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbContentCategory;
+import com.pyg.pojo.TbContentCategoryExample;
 
 public interface TbContentCategoryMapper {
     int countByExample(TbContentCategoryExample example);

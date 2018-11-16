@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbFreightTemplate;
-import com.pyg.pojo.TbFreightTemplateExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbFreightTemplate;
+import com.pyg.pojo.TbFreightTemplateExample;
 
 public interface TbFreightTemplateMapper {
     int countByExample(TbFreightTemplateExample example);

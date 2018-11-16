@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbSeller;
-import com.pyg.pojo.TbSellerExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbSeller;
+import com.pyg.pojo.TbSellerExample;
 
 public interface TbSellerMapper {
     int countByExample(TbSellerExample example);

@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbProvinces;
-import com.pyg.pojo.TbProvincesExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbProvinces;
+import com.pyg.pojo.TbProvincesExample;
 
 public interface TbProvincesMapper {
     int countByExample(TbProvincesExample example);

@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbUser;
-import com.pyg.pojo.TbUserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbUser;
+import com.pyg.pojo.TbUserExample;
 
 public interface TbUserMapper {
     int countByExample(TbUserExample example);

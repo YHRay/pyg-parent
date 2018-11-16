@@ -1,7 +1,6 @@
 package com.pyg.pojo;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class TbItemCat implements Serializable{
     private Long id;
@@ -10,15 +9,7 @@ public class TbItemCat implements Serializable{
 
     private String name;
 
-    private Integer status;
-
-    private Integer sortOrder;
-
-    private Boolean isParent;
-
-    private Date created;
-
-    private Date updated;
+    private Long typeId;
 
     public Long getId() {
         return id;
@@ -44,43 +35,11 @@ public class TbItemCat implements Serializable{
         this.name = name == null ? null : name.trim();
     }
 
-    public Integer getStatus() {
-        return status;
+    public Long getTypeId() {
+        return typeId;
     }
 
-    public void setStatus(Integer status) {
-        this.status = status;
-    }
-
-    public Integer getSortOrder() {
-        return sortOrder;
-    }
-
-    public void setSortOrder(Integer sortOrder) {
-        this.sortOrder = sortOrder;
-    }
-
-    public Boolean getIsParent() {
-        return isParent;
-    }
-
-    public void setIsParent(Boolean isParent) {
-        this.isParent = isParent;
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public Date getUpdated() {
-        return updated;
-    }
-
-    public void setUpdated(Date updated) {
-        this.updated = updated;
+    public void setTypeId(Long typeId) {
+        this.typeId = typeId;
     }
 }

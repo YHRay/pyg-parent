@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbAreas;
-import com.pyg.pojo.TbAreasExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbAreas;
+import com.pyg.pojo.TbAreasExample;
 
 public interface TbAreasMapper {
     int countByExample(TbAreasExample example);

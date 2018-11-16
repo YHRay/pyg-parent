@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbSpecificationOption;
-import com.pyg.pojo.TbSpecificationOptionExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbSpecificationOption;
+import com.pyg.pojo.TbSpecificationOptionExample;
 
 public interface TbSpecificationOptionMapper {
     int countByExample(TbSpecificationOptionExample example);

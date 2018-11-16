@@ -1,54 +1,59 @@
 package com.pyg.pojo;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 public class TbOrderItem implements Serializable{
-    private String id;
+    private Long id;
 
-    private String itemId;
+    private Long itemId;
 
-    private String orderId;
+    private Long goodsId;
 
-    private Integer num;
+    private Long orderId;
 
     private String title;
 
-    private Long price;
+    private BigDecimal price;
 
-    private Long totalFee;
+    private Integer num;
+
+    private BigDecimal totalFee;
 
     private String picPath;
 
-    public String getId() {
+    private String sellerId;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public String getItemId() {
+    public Long getItemId() {
         return itemId;
     }
 
-    public void setItemId(String itemId) {
-        this.itemId = itemId == null ? null : itemId.trim();
+    public void setItemId(Long itemId) {
+        this.itemId = itemId;
     }
 
-    public String getOrderId() {
+    public Long getGoodsId() {
+        return goodsId;
+    }
+
+    public void setGoodsId(Long goodsId) {
+        this.goodsId = goodsId;
+    }
+
+    public Long getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(String orderId) {
-        this.orderId = orderId == null ? null : orderId.trim();
-    }
-
-    public Integer getNum() {
-        return num;
-    }
-
-    public void setNum(Integer num) {
-        this.num = num;
+    public void setOrderId(Long orderId) {
+        this.orderId = orderId;
     }
 
     public String getTitle() {
@@ -59,19 +64,27 @@ public class TbOrderItem implements Serializable{
         this.title = title == null ? null : title.trim();
     }
 
-    public Long getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
-    public Long getTotalFee() {
+    public Integer getNum() {
+        return num;
+    }
+
+    public void setNum(Integer num) {
+        this.num = num;
+    }
+
+    public BigDecimal getTotalFee() {
         return totalFee;
     }
 
-    public void setTotalFee(Long totalFee) {
+    public void setTotalFee(BigDecimal totalFee) {
         this.totalFee = totalFee;
     }
 
@@ -81,5 +94,13 @@ public class TbOrderItem implements Serializable{
 
     public void setPicPath(String picPath) {
         this.picPath = picPath == null ? null : picPath.trim();
+    }
+
+    public String getSellerId() {
+        return sellerId;
+    }
+
+    public void setSellerId(String sellerId) {
+        this.sellerId = sellerId == null ? null : sellerId.trim();
     }
 }

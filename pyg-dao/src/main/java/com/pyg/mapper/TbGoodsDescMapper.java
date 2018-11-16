@@ -1,9 +1,10 @@
 package com.pyg.mapper;
 
-import com.pyg.pojo.TbGoodsDesc;
-import com.pyg.pojo.TbGoodsDescExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import com.pyg.pojo.TbGoodsDesc;
+import com.pyg.pojo.TbGoodsDescExample;
 
 public interface TbGoodsDescMapper {
     int countByExample(TbGoodsDescExample example);
