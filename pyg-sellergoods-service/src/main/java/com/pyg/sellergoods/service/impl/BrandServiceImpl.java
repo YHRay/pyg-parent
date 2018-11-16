@@ -91,7 +91,7 @@ public class BrandServiceImpl implements BrandService {
 		Criteria criteria = example.createCriteria();
 		
 		if(brand!=null){			
-						if(brand.getName()!=null && brand.getName().length()>0){
+			if(brand.getName()!=null && brand.getName().length()>0){
 				criteria.andNameLike("%"+brand.getName()+"%");
 			}
 			if(brand.getFirstChar()!=null && brand.getFirstChar().length()>0){
