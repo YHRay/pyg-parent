@@ -197,3 +197,16 @@
 0:0:0:0:0:0:0:1 - - [16/Nov/2018:17:08:15 +0800] "GET /admin/home.html HTTP/1.1" 200 4468 http-bio-9101-exec-6 1
 0:0:0:0:0:0:0:1 - - [16/Nov/2018:17:39:47 +0800] "GET /admin/brand.html HTTP/1.1" 302 - http-bio-9101-exec-8 1
 0:0:0:0:0:0:0:1 - - [16/Nov/2018:17:39:47 +0800] "GET /login.html HTTP/1.1" 200 3290 http-bio-9101-exec-8 1
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:30 +0800] "GET /admin/index.html HTTP/1.1" 302 - http-bio-9101-exec-11 12
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:30 +0800] "GET /login.html HTTP/1.1" 200 3290 http-bio-9101-exec-11 1
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:39 +0800] "POST /login HTTP/1.1" 302 - http-bio-9101-exec-11 3
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:39 +0800] "GET /admin/index.html HTTP/1.1" 200 22100 http-bio-9101-exec-11 1
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:39 +0800] "GET /plugins/jQueryUI/jquery-ui.min.js HTTP/1.1" 404 1017 http-bio-9101-exec-11 2
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:39 +0800] "GET /admin/home.html HTTP/1.1" 200 4468 http-bio-9101-exec-7 1
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:18:48:39 +0800] "GET /login/name.do HTTP/1.1" 200 21 http-bio-9101-exec-11 10
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:44 +0800] "GET /admin/brand.html HTTP/1.1" 200 6300 http-bio-9101-exec-8 2
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:44 +0800] "POST /brand/search.do?page=1&rows=10 HTTP/1.1" 200 425 http-bio-9101-exec-8 31
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:44 +0800] "POST /brand/search.do?page=1&rows=10 HTTP/1.1" 200 425 http-bio-9101-exec-8 12
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:46 +0800] "GET /admin/specification.html HTTP/1.1" 200 7246 http-bio-9101-exec-8 2
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:46 +0800] "POST /specification/search.do?page=1&rows=10 HTTP/1.1" 200 200 http-bio-9101-exec-8 10
+0:0:0:0:0:0:0:1 - - [16/Nov/2018:19:17:46 +0800] "POST /specification/search.do?page=1&rows=10 HTTP/1.1" 200 200 http-bio-9101-exec-8 11
